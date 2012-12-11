@@ -18,8 +18,8 @@ namespace Projet_jeu
         SpriteBatch spriteBatch;
         GameMain Main;
 
-        int etat;
-        int timesuivant;
+       // int etat;
+       // int timesuivant;
        
 
         public Game1()
@@ -27,8 +27,9 @@ namespace Projet_jeu
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             this.IsMouseVisible = true;
-            etat = 0;
-            timesuivant = 0;
+            graphics.IsFullScreen = false;
+           // etat = 0;
+            //timesuivant = 0;
             
 
         }
@@ -66,14 +67,14 @@ namespace Projet_jeu
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
             Main.Update(Mouse.GetState(), Keyboard.GetState());
-            timesuivant += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
+            /*timesuivant += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
             if (timesuivant > 100)
             {
                 etat++;
                 timesuivant = 0;
             }
             if (etat > 8*6-1)
-                etat = 0;
+                etat = 0;*/
             base.Update(gameTime);
         }
 
@@ -83,7 +84,7 @@ namespace Projet_jeu
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
             Main.Draw(spriteBatch);
-            spriteBatch.Draw(Ressources.luke, new Rectangle(0,0,30,60), new Rectangle((etat % 6) * Ressources.luke.Width / 6, (etat/8)* Ressources.luke.Height / 8, Ressources.luke.Width / 6, Ressources.luke.Height / 8), Color.White);
+           // spriteBatch.Draw(Ressources.luke, new Rectangle(0,0,30,60), new Rectangle((etat % 6) * Ressources.luke.Width / 6, (etat/8)* Ressources.luke.Height / 8, Ressources.luke.Width / 6, Ressources.luke.Height / 8), Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }

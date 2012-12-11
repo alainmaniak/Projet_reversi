@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Alain Afiz\documents\visual studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\player1.xnb</Output>
+      <Output>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\player1.xnb</Output>
       <Time>2012-11-27T06:25:19.7669292+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Alain Afiz\Documents\Visual Studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\calk_hero3.xnb</Output>
+      <Output>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\calk_hero3.xnb</Output>
       <Time>2012-12-07T12:37:48.9313348+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -25,10 +25,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Alain Afiz\Documents\Visual Studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeuContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Alain Afiz\Documents\Visual Studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeu\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Alain Afiz\Documents\Visual Studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeuContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Alain Afiz\Documents\Visual Studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeuContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeu\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeuContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeu\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

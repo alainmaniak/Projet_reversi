@@ -12,13 +12,13 @@ namespace Projet_jeu
 
         //STATIC FIELDS
 
-        public static Texture2D Player1,luke;
+        public static Texture2D luke;
 
         //LOAD CONTENT
 
         public static void LoadContent(ContentManager Content)
         {
-            Player1 = Content.Load<Texture2D>("Player1");
+           
             luke = Content.Load<Texture2D>("calk_hero3");
  
         }

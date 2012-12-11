@@ -1,1 +1,2 @@
 c:\users\alain afiz\documents\visual studio 2010\Projects\Projet_jeu\Projet_jeu\Projet_jeuContent\obj\x86\Debug\Projet_jeuContent.contentprojResolveAssemblyReference.cache
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\Projet_jeu\Projet_jeu\Projet_jeuContent\obj\x86\Debug\Projet_jeuContent.contentprojResolveAssemblyReference.cache
