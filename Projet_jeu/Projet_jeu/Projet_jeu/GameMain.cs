@@ -12,13 +12,17 @@ namespace Projet_jeu
     {
         //FIELDS
        
-       
+       hero localhero;
+
 
         //CONSTRUCTOR
+        /// <summary>
+        /// qesdffdr
+        /// </summary>
         public GameMain()
         {
-            
-            //luke = new Rectangle(0, 0, 60, 90);
+
+            localhero = new hero();
             
  
         }
@@ -31,13 +35,15 @@ namespace Projet_jeu
 
        public void Update(MouseState mouse, KeyboardState keyboard)
         {
-           
+
+            localhero.Update(mouse, keyboard);
  
         }
 
         public void Draw(SpriteBatch SpriteBatch)
         {
-           
+
+            localhero.Draw(SpriteBatch);
  
         }
     }
