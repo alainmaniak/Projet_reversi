@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REVERSI_GAME", "REVERSI_GAME\REVERSI_GAME\REVERSI_GAME.csproj", "{548CEE24-DD2C-4AFA-8703-F16307973BE3}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "REVERSI_GAMEContent", "REVERSI_GAME\REVERSI_GAMEContent\REVERSI_GAMEContent.contentproj", "{969B6A83-7A30-4002-9674-5FBBE9457727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548CEE24-DD2C-4AFA-8703-F16307973BE3}.Debug|x86.ActiveCfg = Debug|x86
+		{548CEE24-DD2C-4AFA-8703-F16307973BE3}.Debug|x86.Build.0 = Debug|x86
+		{548CEE24-DD2C-4AFA-8703-F16307973BE3}.Release|x86.ActiveCfg = Release|x86
+		{548CEE24-DD2C-4AFA-8703-F16307973BE3}.Release|x86.Build.0 = Release|x86
+		{969B6A83-7A30-4002-9674-5FBBE9457727}.Debug|x86.ActiveCfg = Debug|x86
+		{969B6A83-7A30-4002-9674-5FBBE9457727}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

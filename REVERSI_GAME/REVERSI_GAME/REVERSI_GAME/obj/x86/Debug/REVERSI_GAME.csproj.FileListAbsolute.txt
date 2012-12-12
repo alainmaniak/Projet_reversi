@@ -1,0 +1,14 @@
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\REVERSI_GAME.exe
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\REVERSI_GAME.pdb
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.csprojResolveAssemblyReference.cache
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.exe
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.pdb
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\REVERSI_GAME.exe
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\bin\x86\Debug\REVERSI_GAME.pdb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.csprojResolveAssemblyReference.cache
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.exe
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAME\obj\x86\Debug\REVERSI_GAME.pdb

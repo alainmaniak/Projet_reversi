@@ -1,0 +1,2 @@
+c:\users\alain afiz\documents\visual studio 2010\Projects\REVERSI_GAME\REVERSI_GAME\REVERSI_GAMEContent\obj\x86\Debug\REVERSI_GAMEContent.contentprojResolveAssemblyReference.cache
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAME\REVERSI_GAME\REVERSI_GAMEContent\obj\x86\Debug\REVERSI_GAMEContent.contentprojResolveAssemblyReference.cache
