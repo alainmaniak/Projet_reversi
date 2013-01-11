@@ -22,8 +22,11 @@ namespace REVERSI_GAME
         //appel de la fonction TileMap
 
         TileMap myMap = new TileMap();
-        int squaresAcross = 5;//largeur x
-        int squaresDown = 10;//hauteur y
+        int squaresAcross = 18;//largeur x
+        int squaresDown = 11;//hauteur y
+        int baseOffsetX = -32;
+        int baseOffsetY = -64;
+        float heightRowDepthMod = 0.00001f;
 
         public Game1()
         {
@@ -55,7 +58,7 @@ namespace REVERSI_GAME
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            Tile.TileSetTexture = Content.Load<Texture2D>(@"Textures\TileSets\part2_tileset");
+            Tile.TileSetTexture = Content.Load<Texture2D>(@"Textures\TileSets\part4_tileset");
         }
 
         /// <summary>
@@ -112,11 +115,11 @@ namespace REVERSI_GAME
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 
-            spriteBatch.Begin();
+            spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             //la camera s'affiche dans le coin supérieur gauche.
             #region
             /*
@@ -165,11 +168,15 @@ namespace REVERSI_GAME
             {
                 for (int x = 0; x < squaresAcross; x++)
                 {
-                    spriteBatch.Draw(
-                        Tile.TileSetTexture,
-                        new Rectangle((x * Tile.Tilelargeur) - offsetX, (y * Tile.Tilehauteur) - offsetY, Tile.Tilelargeur, Tile.Tilehauteur),
-                        Tile.GetSourceRectangle(myMap.Lignes[y + firstY].Colonnes[x + firstX].TileID),
-                        Color.White);
+                    foreach (int tileID in myMap.Lignes[y + firstY].Colonnes[x + firstX].BaseTiles)
+                    {
+                        spriteBatch.Draw(
+                            Tile.TileSetTexture,
+                            new Rectangle((x * Tile.Tilelargeur) - offsetX, (y * Tile.Tilehauteur) - offsetY, Tile.Tilelargeur, Tile.Tilehauteur),
+                            Tile.GetSourceRectangle(myMap.Lignes[y + firstY].Colonnes[x + firstX].TileID),
+                            Color.White);
+                            
+                    }
                 }
             }
 

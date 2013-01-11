@@ -16,9 +16,14 @@ namespace REVERSI_GAME
         /// variable de texture
         /// </summary>
         static public Texture2D TileSetTexture;
-        public static int Tilelargeur = 48;
-        public static int Tilehauteur = 48;
+        public static int Tilelargeur = 64;
+        public static int Tilehauteur = 64;
+        static public int TileStepX = 64;
+        static public int TileStepY = 16;
+        static public int OddRowXOffset = 32;
+        static public int HeightTileOffset = 32;
 
+        static public Vector2 originPoint = new Vector2(19, 39);
         /// <summary>
         /// choisir la tuile
         /// </summary>
@@ -26,8 +31,6 @@ namespace REVERSI_GAME
         /// <returns>le rectangle représentant le tileIndex</returns>
         static public Rectangle GetSourceRectangle(int tileIndex)
         {
-
-
             int TileY = tileIndex / (TileSetTexture.Width / Tilelargeur);
             int TileX = tileIndex % (TileSetTexture.Width / Tilelargeur);
             return new Rectangle(tileIndex * Tilelargeur, TileY*Tilehauteur, Tilelargeur, Tilehauteur);

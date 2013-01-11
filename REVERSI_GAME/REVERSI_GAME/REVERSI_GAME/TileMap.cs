@@ -48,7 +48,7 @@ namespace REVERSI_GAME
             // placement des "tuiles" sur la carte
 # region;
 
-            Lignes[0].Colonnes[3].TileID = 5;
+            Lignes[0].Colonnes[3].TileID = 3;
             Lignes[0].Colonnes[4].TileID = 3;
             Lignes[0].Colonnes[5].TileID = 1;
             Lignes[0].Colonnes[6].TileID = 1;
@@ -60,7 +60,7 @@ namespace REVERSI_GAME
             Lignes[1].Colonnes[6].TileID = 1;
             Lignes[1].Colonnes[7].TileID = 1;
 
-            Lignes[2].Colonnes[2].TileID = 2;
+            Lignes[2].Colonnes[2].TileID = 3;
             Lignes[2].Colonnes[3].TileID = 1;
             Lignes[2].Colonnes[4].TileID = 1;
             Lignes[2].Colonnes[5].TileID = 1;
@@ -87,6 +87,19 @@ namespace REVERSI_GAME
             Lignes[5].Colonnes[5].TileID = 2;
             Lignes[5].Colonnes[6].TileID = 2;
             Lignes[5].Colonnes[7].TileID = 2;
+
+            Lignes[3].Colonnes[5].AddBaseTile(30);
+            Lignes[4].Colonnes[5].AddBaseTile(27);
+            Lignes[5].Colonnes[5].AddBaseTile(28);
+
+            Lignes[3].Colonnes[6].AddBaseTile(25);
+            Lignes[5].Colonnes[6].AddBaseTile(24);
+
+            Lignes[3].Colonnes[7].AddBaseTile(31);
+            Lignes[4].Colonnes[7].AddBaseTile(26);
+            Lignes[5].Colonnes[7].AddBaseTile(29);
+
+            Lignes[4].Colonnes[6].AddBaseTile(104);
 
 
           
