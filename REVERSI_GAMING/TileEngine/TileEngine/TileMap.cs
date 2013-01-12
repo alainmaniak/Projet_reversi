@@ -209,7 +209,8 @@ namespace REVERSI
         }
 
         public MapCell GetCellAtWorldPoint(Point worldPoint)
-        {            Point mapPoint = WorldToMapCell(worldPoint);
+        {
+            Point mapPoint = WorldToMapCell(worldPoint);
             return Rows[mapPoint.Y].Columns[mapPoint.X];
         }
 
