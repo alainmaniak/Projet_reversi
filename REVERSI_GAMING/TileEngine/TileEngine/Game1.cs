@@ -62,7 +62,7 @@ namespace REVERSI
         /// </summary>
         protected override void Initialize()
         {
-           
+            this.Window.Title = "REVERSI";
            
            base.Initialize();
         }

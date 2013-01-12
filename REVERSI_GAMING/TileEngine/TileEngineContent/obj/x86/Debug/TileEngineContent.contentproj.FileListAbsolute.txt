@@ -6,3 +6,4 @@ C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries8_build9\TileEngine\Til
 C:\Users\Alain Afiz\Dropbox\Projet\sprites_jeu\tileengineseries9\TileEngine\TileEngineContent\obj\x86\Debug\TileEngineContent.contentprojResolveAssemblyReference.cache
 C:\Users\Alain Afiz\Desktop\tileengineseries9\TileEngine\TileEngineContent\obj\x86\Debug\TileEngineContent.contentprojResolveAssemblyReference.cache
 C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\tileengineseries9\TileEngine\TileEngineContent\obj\x86\Debug\TileEngineContent.contentprojResolveAssemblyReference.cache
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngineContent\obj\x86\Debug\TileEngineContent.contentprojResolveAssemblyReference.cache
