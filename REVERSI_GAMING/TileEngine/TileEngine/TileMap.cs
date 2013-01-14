@@ -128,7 +128,8 @@ namespace REVERSI
             for (int i = 0; i <= 48; i++)
             {
                 Rows[2].Columns[i].AddTopperTile(110);
-                Rows[2].Columns[i].Walkable = false;
+                Rows[3].Columns[i].AddTopperTile(110);
+                Rows[3].Columns[i].Walkable = false;
                 Rows[i].Columns[0].AddTopperTile(110);
                 Rows[i].Columns[0].Walkable = false;
                 Rows[i].Columns[48].AddTopperTile(110);
@@ -142,6 +143,14 @@ namespace REVERSI
                 
                 
             }
+
+            //sapin
+            //Rows[17].Columns[1].AddHeightTile(132);
+            //Rows[13].Columns[1].AddBaseTile(122);
+            
+
+
+
 
             //Rows[3].Columns[5].AddBaseTile(30);
             //Rows[4].Columns[5].AddBaseTile(27);

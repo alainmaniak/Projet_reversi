@@ -477,10 +477,10 @@ namespace REVERSI
                             }
 
          ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                            spriteBatch.DrawString(pericles6, (x + firstX).ToString() + ", " + (y + firstY).ToString(),
-                                new Vector2((x * Tile.TileStepX) - offsetX + rowOffset + baseOffsetX + 24,
-                                    (y * Tile.TileStepY) - offsetY + baseOffsetY + 48), Color.White, 0f, Vector2.Zero,
-                                    1.0f, SpriteEffects.None, 0.0f);
+                            //spriteBatch.DrawString(pericles6, (x + firstX).ToString() + ", " + (y + firstY).ToString(),
+                              //  new Vector2((x * Tile.TileStepX) - offsetX + rowOffset + baseOffsetX + 24,
+                                //    (y * Tile.TileStepY) - offsetY + baseOffsetY + 48), Color.White, 0f, Vector2.Zero,
+                                  //  1.0f, SpriteEffects.None, 0.0f);
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                
                         
                         }
