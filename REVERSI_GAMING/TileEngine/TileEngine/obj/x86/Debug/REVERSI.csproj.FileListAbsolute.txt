@@ -97,3 +97,10 @@ C:\Users\Yassine\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileE
 C:\Users\Yassine\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\image_pause.xnb
 C:\Users\Yassine\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\MainMenu.xnb
 C:\Users\Yassine\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\ReversiMenu.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\Buttons\Exit.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\Buttons\Options.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\Buttons\Play.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\Buttons\ReversiMenu.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\image_pause.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\MainMenu.xnb
+C:\Users\Alain Afiz\Documents\GitHub\Projet_reversi\REVERSI_GAMING\TileEngine\TileEngine\bin\x86\Debug\Content\fonds\ReversiMenu.xnb

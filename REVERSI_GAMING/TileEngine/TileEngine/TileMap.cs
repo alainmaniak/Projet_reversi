@@ -124,6 +124,25 @@ namespace REVERSI
             Rows[14].Columns[9].AddTopperTile(30);
             Rows[14].Columns[9].SlopeMap = 4;
 
+            // collision contour !
+            for (int i = 0; i <= 48; i++)
+            {
+                Rows[2].Columns[i].AddTopperTile(110);
+                Rows[2].Columns[i].Walkable = false;
+                Rows[i].Columns[0].AddTopperTile(110);
+                Rows[i].Columns[0].Walkable = false;
+                Rows[i].Columns[48].AddTopperTile(110);
+                Rows[i].Columns[48].Walkable = false;
+                Rows[45].Columns[i].AddTopperTile(110);
+                Rows[45].Columns[i].Walkable = false;
+                Rows[46].Columns[i].AddTopperTile(110);
+                Rows[47].Columns[i].AddTopperTile(110);
+                Rows[48].Columns[i].AddTopperTile(110);
+                Rows[49].Columns[i].AddTopperTile(110);
+                
+                
+            }
+
             //Rows[3].Columns[5].AddBaseTile(30);
             //Rows[4].Columns[5].AddBaseTile(27);
             //Rows[5].Columns[5].AddBaseTile(28);
